@@ -8,12 +8,13 @@
 header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../imagens/pordosol.webp');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../imagens/tom-barrett-M0AWNxnLaMw-unsplash.jpg');
     background-position: center;
     background-size: cover;
 }
 
 a{
+    
     text-decoration: none;
 }
 
@@ -30,16 +31,18 @@ header .menu li{
     display: inline-block;
 }
 
-header .menu a{
+header .menu ul a{
     color: white;
     padding: 8px 12px;
     border-radius: 3px;
+    border: 1px solid white;
     transition: 200ms;
 }
 
-header .menu .ativo, header .menu a:hover{
+header .menu ul .ativo, header .menu ul a:hover{
     color: #444;
     background-color: white;
+
 }
 
 .principal{
@@ -53,19 +56,21 @@ header .menu .ativo, header .menu a:hover{
 .principal h2{
     color: white;
     font-size: 45px;
+    justify-content: left;
 }
 
-.principal .links a{
-    color: white;
-    padding: 10px 18px;
+.principal .links a{ 
     display: inline-block;
-    border: 1px solid white;
-    border-radius: 3px;
-    margin-top: 20px;
-    transition: 200ms;
 }
 
 .principal .links a:hover{
     color: #444;
     background-color: white;
+}
+
+.logo{
+    width: 90px;
+    text-align: center;
+    font-size: 50px;
+    color:bisque;
 }
